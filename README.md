@@ -1,4 +1,5 @@
-# $1
+# extendable-string
+
 🐱‍🚀ExtendableString allows you to create magic strings that have custom transformations applied to them, unlike common, plain strings. 🪀
 
 <br>
@@ -17,7 +18,7 @@
 Install it by executing:
 
 ```shell
-npm i "@igor.dvlpr/$1"
+npm i "@igor.dvlpr/extendable-string"
 ```
 
 <br>
