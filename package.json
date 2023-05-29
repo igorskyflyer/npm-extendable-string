@@ -1,7 +1,7 @@
 {
-	"name": "@igor.dvlpr/$1",
+	"name": "@igor.dvlpr/extendable-string",
 	"version": "1.0.0",
-	"description": "$2",
+	"description": "🐱‍🚀ExtendableString allows you to create magic strings that have custom transformations applied to them, unlike common, plain strings. 🪀",
 	"sideEffects": false,
 	"engines": {
 		"node": ">=16.0"
@@ -18,20 +18,27 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/igorskyflyer/$3.git"
+		"url": "git+https://github.com/igorskyflyer/npm-extendable-string.git"
 	},
 	"keywords": [
 		"igorskyflyer",
 		"igor.dvlpr",
-		$4
+		"string",
+		"extend",
+		"extendable-string",
+		"utility",
+		"magic",
+		"transform",
+		"transformation",
+		"value"
 	],
 	"author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
 	"license": "MIT",
 	"funding": "https://ko-fi.com/igorskyflyer",
 	"bugs": {
-		"url": "https://github.com/igorskyflyer/$3/issues"
+		"url": "https://github.com/igorskyflyer/npm-extendable-string/issues"
 	},
-	"homepage": "https://github.com/igorskyflyer/$3#readme",
+	"homepage": "https://github.com/igorskyflyer/npm-extendable-string#readme",
 	"devDependencies": {
 		"@types/chai": "^4.3.1",
 		"@types/mocha": "^9.1.1",
