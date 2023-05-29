@@ -1,6 +1,6 @@
 # ExtendableString
 
-🐱‍🚀ExtendableString allows you to create magic strings that have custom transformations applied to them, unlike common, plain strings. 🪀
+🦀 ExtendableString allows you to create magic strings that have custom transformations applied to them, unlike common, plain strings. 🪀
 
 <br>
 
@@ -63,8 +63,6 @@ The value property represents the current transformed value of the string.
 <br>
 
 ### `Methods`
-
-<br>
 
 #### **`toString()`**
 
