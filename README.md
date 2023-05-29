@@ -1,5 +1,5 @@
 # $1
-$2
+🐱‍🚀ExtendableString allows you to create magic strings that have custom transformations applied to them, unlike common, plain strings. 🪀
 
 <br>
 
