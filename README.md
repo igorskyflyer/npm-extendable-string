@@ -1,4 +1,4 @@
-# extendable-string
+# ExtendableString
 
 🐱‍🚀ExtendableString allows you to create magic strings that have custom transformations applied to them, unlike common, plain strings. 🪀
 
@@ -13,6 +13,18 @@
 <br>
 <br>
 
+## Table of Contents
+
+- [Usage](#🕵🏼‍♂️-usage)
+- [API](#🤹🏼‍♂️-api)
+  - [Constructor](#constructor)
+  - [Properties](#properties)
+  - [Methods](#methods)
+- [License](#license)
+
+<br>
+<br>
+
 ## 🕵🏼‍♂️ Usage
 
 Install it by executing:
@@ -24,3 +36,53 @@ npm i "@igor.dvlpr/extendable-string"
 <br>
 
 ## 🤹🏼‍♂️ API
+
+<br>
+
+### `Constructor`
+
+<br>
+
+The constructor initializes an instance of the `ExtendableString` class.
+
+#### _Parameters_
+
+- `raw` (string): the initial value of the string.
+- `transformFn` (function): a transformation function that takes a string as input and returns a transformed string.
+
+<br>
+<br>
+
+### `Properties`
+
+#### **`value`**
+
+The value property represents the current transformed value of the string.
+
+<br>
+<br>
+
+### `Methods`
+
+<br>
+
+#### **`toString()`**
+
+The `toString()` method returns the current transformed value of the string.
+
+<br>
+
+### Example
+
+```typescript
+const transformFn = (str: string) => str.toUpperCase()
+const extendableString = new ExtendableString('hello', transformFn)
+console.log(extendableString.value) // Output: "HELLO"
+```
+
+<br>
+<br>
+
+### License
+
+This project is licensed under the terms of the MIT license.
