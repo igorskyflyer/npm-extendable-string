@@ -40,7 +40,7 @@
 	},
 	"homepage": "https://github.com/igorskyflyer/npm-extendable-string#readme",
 	"devDependencies": {
-		"@types/chai": "^4.3.1",
+		"@types/chai": "^4.3.5",
 		"@types/mocha": "^9.1.1",
 		"@types/node": "^12.17.0",
 		"chai": "^4.3.6",
