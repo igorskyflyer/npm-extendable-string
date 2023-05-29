@@ -1,12 +1,21 @@
-export class ExtendableString extends String {
-  private transformFn: (str: string) => string
+export class ExtendableString {
+  #transformFn: (str: string) => string
+  #value: string
 
-  constructor(value: string, transformFn: (str: string) => string) {
-    super(value)
-    this.transformFn = transformFn
+  constructor(raw: string, transformFn: (str: string) => string) {
+    this.#transformFn = transformFn
+    this.#value = transformFn(raw)
+  }
+
+  get value(): string {
+    return this.#value
+  }
+
+  set value(newValue: string) {
+    this.#value = this.#transformFn(newValue)
   }
 
   toString(): string {
-    return this.transformFn(this.valueOf())
+    return this.#value
   }
 }
