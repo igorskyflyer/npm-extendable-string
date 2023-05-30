@@ -1,7 +1,7 @@
 {
 	"name": "@igor.dvlpr/extendable-string",
 	"version": "1.0.0",
-	"description": "🦀 ExtendableString allows you to create magic strings that have custom transformations applied to them, unlike common, plain strings. 🪀",
+	"description": "🦀 ExtendableString allows you to create strings on steroids that have custom transformations applied to them, unlike common, plain strings.. 🪀",
 	"sideEffects": false,
 	"engines": {
 		"node": ">=16.0"
