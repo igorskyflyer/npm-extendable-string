@@ -37,8 +37,6 @@ npm i "@igor.dvlpr/extendable-string"
 
 ## 🤹🏼‍♂️ API
 
-<br>
-
 ### `Constructor`
 
 <br>
