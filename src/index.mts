@@ -11,7 +11,7 @@ export abstract class ExtendableString {
    */
   constructor(raw: string, transformFn: (str: string) => string) {
     this.#transformFn = transformFn
-    this.#value = transformFn(raw)
+    this.#value = transformFn(raw ?? '')
   }
 
   /**
