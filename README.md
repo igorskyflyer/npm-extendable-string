@@ -15,8 +15,8 @@
 
 ## Table of Contents
 
-- [Usage](#🕵🏼‍♂️-usage)
-- [API](#🤹🏼‍♂️-api)
+- [Usage](#usage)
+- [API](#api)
   - [Example](#example)
   - [Properties](#properties)
   - [Methods](#methods)
@@ -25,7 +25,7 @@
 <br>
 <br>
 
-## 🕵🏼‍♂️ Usage
+## Usage
 
 Install it by executing:
 
@@ -35,7 +35,7 @@ npm i "@igor.dvlpr/extendable-string"
 
 <br>
 
-## 🤹🏼‍♂️ API
+## API
 
 <br>
 
@@ -45,6 +45,10 @@ To actually use it, you should extend your own String class from it.
 
 ### Example
 
+<br>
+
+_UpperCaseString.mts_
+
 ```typescript
 import { ExtendableString } from '@igor.dvlpr/extendable-string'
 
@@ -53,6 +57,14 @@ export class UpperCaseString extends ExtendableString {
     super(value, (str) => str.toUpperCase())
   }
 }
+```
+
+<br>
+
+_example.mts_
+
+```typescript
+import { UpperCaseString } from './UpperCaseString'
 
 const test = new UpperCaseString('aaaa')
 console.log(test.value) // Outputs 'AAAA'
