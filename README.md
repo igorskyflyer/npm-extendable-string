@@ -1,6 +1,6 @@
 # ExtendableString
 
-🦀 ExtendableString allows you to create magic strings that have custom transformations applied to them, unlike common, plain strings. 🪀
+🦀 ExtendableString allows you to create strings that have custom transformations applied to them, unlike common, plain strings. It artificially extends the String type. 🪀
 
 <br>
 
