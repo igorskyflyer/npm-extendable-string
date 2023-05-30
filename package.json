@@ -6,14 +6,16 @@
 	"engines": {
 		"node": ">=16.0"
 	},
-	"types": "./dist/index.d.ts",
-	"main": "./dist/index.js",
+	"types": "./dist/index.d.mts",
+	"main": "./dist/index.mjs",
+	"module": "./dist/index.mjs",
 	"files": [
 		"dist"
 	],
 	"scripts": {
 		"build": "tsc",
-		"test": "ts-mocha test/*.ts",
+		"test": "vitest --run",
+		"dev": "vitest",
 		"pub": "npm test && npm run build && npm publish --access public"
 	},
 	"repository": {
@@ -40,12 +42,8 @@
 	},
 	"homepage": "https://github.com/igorskyflyer/npm-extendable-string#readme",
 	"devDependencies": {
-		"@types/chai": "^4.3.5",
-		"@types/mocha": "^10.0.1",
 		"@types/node": "^16.0.0",
-		"chai": "^4.3.7",
-		"mocha": "^10.2.0",
-		"ts-mocha": "^10.0.0",
-		"typescript": "^5.0.4"
+		"typescript": "^5.0.4",
+		"vitest": "^0.31.1"
 	}
 }
