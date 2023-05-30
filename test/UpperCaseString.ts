@@ -1,4 +1,4 @@
-import { ExtendableString } from '../src/index'
+import { ExtendableString } from '../src/index.mjs'
 
 export class UpperCaseString extends ExtendableString {
   constructor(value: string) {
