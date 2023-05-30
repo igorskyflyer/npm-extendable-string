@@ -80,7 +80,7 @@ Each time you create a new string or assign a new value to it, your string trans
 
 <blockquote>
 <br>
- ❗ You do <strong>NOT</strong> instantiate a new object from the <code>ExtendableString</code> class.
+ ❗ You do <strong>NOT</strong> instantiate a new object from the <code>ExtendableString</code> class, you extend it instead.
  <br>
  <br>
 </blockquote>
