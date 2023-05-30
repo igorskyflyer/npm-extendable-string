@@ -1,7 +1,7 @@
 /**
  * Allows you to create strings on steroids that have custom transformations applied to them, unlike common, plain strings. You should extend from this class, **NOT** instantiate a new object from it.
  */
-export class ExtendableString {
+export abstract class ExtendableString {
   #transformFn: (str: string) => string
   #value: string
 
