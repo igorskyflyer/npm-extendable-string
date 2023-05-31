@@ -5,6 +5,13 @@
 <br>
 
 <div align="center">
+  <h3>Time spent working on this project:</h3>
+  <a href="https://wakatime.com/badge/user/34413f5c-8870-4397-9420-65d8b08d4ab4/project/13fe3806-c319-4346-ac73-2f26a5edea69"><img src="https://wakatime.com/badge/user/34413f5c-8870-4397-9420-65d8b08d4ab4/project/13fe3806-c319-4346-ac73-2f26a5edea69.svg?style=plastic" alt="wakatime"></a>
+</div>
+
+<br>
+
+<div align="center">
 <h3>💖 Support further development</h3>
 <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="108"></a>
 </div>
