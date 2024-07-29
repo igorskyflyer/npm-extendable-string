@@ -1,7 +1,9 @@
-import { describe, test, assert } from 'vitest'
+// Author: Igor Dimitrijević (@igorskyflyer)
+
+import { assert, describe, test } from 'vitest'
 import { UpperCaseString } from './UpperCaseString.mjs'
 
-describe('🧪 extendable-string tests 🧪', () => {
+describe('🧪 ExtendableString tests 🧪', () => {
   test('#1 should return ""', () => {
     // @ts-expect-error
     const test = new UpperCaseString()
