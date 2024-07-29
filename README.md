@@ -85,6 +85,20 @@ Will throw an error if the transformation function is not supplied.
 
 ---
 
+### `value: string`
+
+*Gets the transformed string or sets a new value that will be transformed automatically.*
+
+---
+
+### `toString(): string`
+
+*Gets the transformed string value.*  
+
+Returns the transformed string.
+
+---
+
 ## ✨ Examples
 
 `UpperCaseString.mts`
