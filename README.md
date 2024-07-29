@@ -75,6 +75,8 @@ npm i '@igor.dvlpr/extendable-string'
 
 *Creates an ExtendableString instance.*  
 
+<br>
+
 `raw` - The string input to transform.  
 
 `transformFn` - The transformation function to apply to the string.  
