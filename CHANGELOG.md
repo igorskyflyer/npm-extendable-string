@@ -4,8 +4,8 @@
 
 <br>
 
-## v1.0.0
+## v2.0.0
 
-<p align="right"><em>--2024</em></p>
+<p align="right"><em>29-Jul-2024</em></p>
 
-- **🚀 launch**: initial release 🎉
+- **❌ BREAKING**: migrate to Node `v20` and ESM-only
