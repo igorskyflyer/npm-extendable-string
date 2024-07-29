@@ -1,38 +1,46 @@
+// Author: Igor Dimitrijević (@igorskyflyer)
+
 /**
- * Allows you to create strings on steroids that have custom transformations applied to them, unlike common, plain strings. You should extend from this class, **NOT** instantiate a new object from it.
+ * Abstract class that provides advanced string manipulation capabilities with custom transformations.
+ *
+ * This class is intended to be **extended** rather than instantiated directly.
  */
 export abstract class ExtendableString {
   #transformFn: (str: string) => string
   #value: string
 
   /**
-   * @param {string} raw - the string input to transform
-   * @param {(str: string) => string} transformFn - the transformation function to apply to the string
+   * @param raw - The string input to transform.
+   * @param transformFn - The transformation function to apply to the string.
    */
   constructor(raw: string, transformFn: (str: string) => string) {
+    if (typeof transformFn !== 'function') {
+      throw new Error('Invalid string transformation function.')
+    }
+
     this.#transformFn = transformFn
     this.#value = transformFn(raw ?? '')
   }
 
   /**
-   * Returns the transformed string value.
-   * @returns {string}
+   * Gets the transformed string value.
+   * @returns The transformed string.
    */
   get value(): string {
     return this.#value
   }
 
   /**
-   * Sets a new value, note, your transformation will automatically be applied.
-   * @param {string} newValue - the new value to assign
+   * Sets a new value, automatically applying the transformation.
+   * @param newValue - The new value to assign.
    */
   set value(newValue: string) {
     this.#value = this.#transformFn(newValue)
   }
 
   /**
-   * Returns the transformed string value.
-   * @returns {string}
+   * Gets the transformed string value.
+   * @returns The transformed string.
    */
   toString(): string {
     return this.#value
