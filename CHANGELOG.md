@@ -9,3 +9,7 @@
 <p align="right"><em>29-Jul-2024</em></p>
 
 - **❌ BREAKING**: migrate to Node `v20` and ESM-only
+
+<br>
+
+- **✅ fix**: minor improvements
