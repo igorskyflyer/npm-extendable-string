@@ -3,9 +3,9 @@
 <br>
 
 <div align="center">
-  🦀 ExtendableString allows you to create strings on steroids that
+  🦀 ExtendableString allows you to create strings on steroids that have custom
   <br>
-  have custom transformations applied to them, unlike common, plain strings. 🪀
+  transformations applied to them, unlike common, plain strings. 🪀
 </div>
 
 <br>
