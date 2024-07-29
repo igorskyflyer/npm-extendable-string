@@ -71,7 +71,15 @@ npm i '@igor.dvlpr/extendable-string'
 
 <br>
 
+### `constructor(raw, transformFn)`
 
+*Creates an ExtendableString instance.*  
+
+`raw` - The string input to transform.  
+
+`transformFn` - The transformation function to apply to the string.  
+
+Will throw an error if the transformation function is not supplied.
 
 ---
 
