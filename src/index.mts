@@ -38,6 +38,10 @@ export abstract class ExtendableString {
    * @param newValue - The new value to assign.
    */
   set value(newValue: string) {
+    if (typeof newValue !== 'string') {
+      return
+    }
+
     this.#value = this.#transformFn(newValue)
   }
 
