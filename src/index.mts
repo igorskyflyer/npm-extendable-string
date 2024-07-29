@@ -10,6 +10,8 @@ export abstract class ExtendableString {
   #value: string
 
   /**
+   * Creates an ExtendableString instance.
+   *
    * @param raw - The string input to transform.
    * @param transformFn - The transformation function to apply to the string.
    * @throws Will throw an error if the transformation function is not supplied.
