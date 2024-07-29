@@ -42,6 +42,9 @@
 
 - [Usage](#-usage)
 - [API](#-api)
+  - [constructor()](#constructorraw-transformfn)
+  - [value](#value-string)
+  - [toString()](#tostring-string)
 - [Examples](#-examples)
 - [Changelog](#-changelog)
 - [License](#-license)
