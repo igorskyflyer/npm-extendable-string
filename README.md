@@ -177,9 +177,9 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 <br>
 
-[@aria-toolkit/shared](https://www.npmjs.com/package/@aria-toolkit/shared)
+[@igorskyflyer/normalized-string](https://www.npmjs.com/package/@igorskyflyer/normalized-string)
 
-> _👻 Shared resources between Aria modules. 🐦‍⬛_
+> _💊 NormalizedString provides you with a String type with consistent line-endings, guaranteed. 📮_   
 
 <br>
 
