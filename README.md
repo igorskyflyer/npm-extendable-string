@@ -119,7 +119,7 @@ export class UpperCaseString extends ExtendableString {
 
 `example.ts`
 ```ts
-import { UpperCaseString } from './UpperCaseString.mjs'
+import { UpperCaseString } from './UpperCaseString.js'
 
 const test = new UpperCaseString('aaaa')
 console.log(test.value) // Outputs 'AAAA'
@@ -128,7 +128,6 @@ const example = new UpperCaseString('aaaa')
 example.value = 'hello'
 console.log(test.value) // Outputs 'HELLO'
 ```
-
 
 <br>
 <br>
