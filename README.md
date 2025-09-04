@@ -1,52 +1,28 @@
-<h1 align="center">ExtendableString</h1>
-
-<br>
-
 <div align="center">
-  🦀 ExtendableString allows you to create strings on steroids that have custom
-  <br>
-  transformations applied to them, unlike common, plain strings. 🪀
+  <img src="https://raw.githubusercontent.com/igorskyflyer/npm-extendable-string/main/media/extendable-string.png" alt="Icon of ExtendableString" width="256" height="256">
+  <h1>ExtendableString</h1>
 </div>
 
 <br>
-<br>
 
-<div align="center">
-  <blockquote>
-    <br>
-    <h4>💖 Support further development</h4>
-    <span>I work hard for every project, including this one
-    <br>
-    and your support means a lot to me!
-    <br>
-    <br>
-    Consider buying me a coffee. ☕
-    <br>
-    <strong>Thank you for supporting my efforts! 🙏😊</strong></span>
-    <br>
-    <br>
-    <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="150"></a>
-    <br>
-    <br>
-    <a href="https://github.com/igorskyflyer"><em>@igorskyflyer</em></a>
-    <br>
-    <br>
-    <br>
-  </blockquote>
-</div>
+<h4 align="center">
+  🦀 ExtendableString allows you to create strings on steroids that have custom transformations applied to them, unlike common, plain strings. 🪀
+</h4>
 
 <br>
 <br>
 
-## 📃 Table of contents
+## 📃 Table of Contents
 
+- [Features](#-features)
 - [Usage](#-usage)
 - [API](#-api)
   - [constructor()](#constructorraw-transformfn)
   - [value](#value-string)
   - [toString()](#tostring-string)
-- [Examples](#-examples)
+- [Examples](#️-examples)
 - [Changelog](#-changelog)
+- [Support](#-support)
 - [License](#-license)
 - [Related](#-related)
 - [Author](#-author)
@@ -54,21 +30,45 @@
 <br>
 <br>
 
+## 🤖 Features
+
+- 🚀 Instantly applies custom string transformations on creation  
+- 🔄 Updates value with transformation applied automatically  
+- 🛡️ Validates transformation function before use  
+- 🧩 Designed for easy extension via sub-classing  
+- 📦 Encapsulates logic with private fields for safety  
+- 📝 Provides clean string output through toString method  
+- ⚡ Ensures consistent transformed state at all times  
+
+
+<br>
+<br>
+
 ## 🕵🏼 Usage
 
-Install it by executing:
+Install it by executing any of the following, depending on your preferred package manager:
 
-```shell
-npm i '@igor.dvlpr/extendable-string'
+```bash
+pnpm add @igorskyflyer/extendable-string
 ```
 
+```bash
+yarn add @igorskyflyer/extendable-string
+```
+
+```bash
+npm i @igorskyflyer/extendable-string
+```
+
+<br>
 <br>
 
 ## 🤹🏼 API
 
-<br>
-
-> [!WARNING]
+> ### 💡 TIP
+>
+> #### First Steps
+>
 > Do **NOT** instantiate a new object from the `ExtendableString` class, extend it instead.
 >
 
@@ -100,13 +100,14 @@ Will throw an error if the transformation function is not supplied.
 
 Returns the transformed string.
 
----
+<br>
+<br>
 
-## ✨ Examples
+## 🗒️ Examples
 
-`UpperCaseString.mts`
+`UpperCaseString.ts`
 ```ts
-import { ExtendableString } from '@igor.dvlpr/extendable-string'
+import { ExtendableString } from '@igorskyflyer/extendable-string'
 
 export class UpperCaseString extends ExtendableString {
   constructor(value: string) {
@@ -117,7 +118,7 @@ export class UpperCaseString extends ExtendableString {
 
 <br>
 
-`example.mts`
+`example.ts`
 ```ts
 import { UpperCaseString } from './UpperCaseString.mjs'
 
@@ -129,29 +130,50 @@ example.value = 'hello'
 console.log(test.value) // Outputs 'HELLO'
 ```
 
----
+
+<br>
+<br>
 
 ## 📝 Changelog
 
-📑 The changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-extendable-string/blob/main/CHANGELOG.md).
+📑 The changelog is available here, [CHANGELOG.md](https://github.com/igorskyflyer/npm-extendable-string/blob/main/CHANGELOG.md).
 
----
+<br>
+<br>
 
 ## 🪪 License
 
 Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-extendable-string/blob/main/LICENSE).
 
----
+<br>
+<br>
+
+## 💖 Support
+
+<div align="center">
+  I work hard for every project, including this one and your support means a lot to me!
+  <br>
+  Consider buying me a coffee. ☕
+  <br>
+  <br>
+  <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="180" height="46"></a>
+  <br>
+  <br>
+  <em>Thank you for supporting my efforts!</em> 🙏😊
+</div>
+
+<br>
+<br>
 
 ## 🧬 Related
 
-[@igor.dvlpr/keppo](https://www.npmjs.com/package/@igor.dvlpr/keppo)
+[@igorskyflyer/keppo](https://www.npmjs.com/package/@igorskyflyer/keppo)
 
 > _🎡 Parse, manage, compare and output SemVer-compatible version numbers. 🛡_
 
 <br>
 
-[@igor.dvlpr/astro-escaped-component](https://www.npmjs.com/package/@igor.dvlpr/astro-escaped-component)
+[@igorskyflyer/astro-escaped-component](https://www.npmjs.com/package/@igorskyflyer/astro-escaped-component)
 
 > _🏃🏻‍♂️‍➡️ An Astro component that holds only HTML-encoded content. 📜_
 
@@ -163,19 +185,19 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 <br>
 
-[@igor.dvlpr/windev](https://www.npmjs.com/package/@igor.dvlpr/windev)
+[@igorskyflyer/windev](https://www.npmjs.com/package/@igorskyflyer/windev)
 
 > _🍃 Provides ways of checking whether a path is a legacy Windows device. 💾_
 
 <br>
 
-[@igor.dvlpr/mapped-replacer](https://www.npmjs.com/package/@igor.dvlpr/mapped-replacer)
+[@igorskyflyer/mapped-replacer](https://www.npmjs.com/package/@igorskyflyer/mapped-replacer)
 
 > _🗺 Zero-dependency Map and RegExp based string replacer with Unicode support. 🍁_
 
----
-
+<br>
+<br>
 <br>
 
-### 👨🏻‍💻 Author
+## 👨🏻‍💻 Author
 Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).
