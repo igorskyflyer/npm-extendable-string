@@ -37,9 +37,8 @@
 - 🛡️ Validates transformation function before use  
 - 🧩 Designed for easy extension via sub-classing  
 - 📦 Encapsulates logic with private fields for safety  
-- 📝 Provides clean string output through toString method  
+- 📝 Provides clean string output through the `toString()` method  
 - ⚡ Ensures consistent transformed state at all times  
-
 
 <br>
 <br>
