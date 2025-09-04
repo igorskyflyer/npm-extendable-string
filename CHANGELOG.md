@@ -1,15 +1,18 @@
-## 📒 Changelog
+# 📒 Changelog
 
-### of [@igor.dvlpr/extendable-string](https://github.com/igorskyflyer/npm-extendable-string)
+### of [@igorskyflyer/extendable-string](https://github.com/igorskyflyer/npm-extendable-string)
 
 <br>
 
-## v2.0.0
+## v2.1.0 (*04-Sep-2025*)
 
-<p align="right"><em>29-Jul-2024</em></p>
+- **💻 dev**: upgrade Node to >= v22
+- **💻 dev**: upgrade dependencies
+
+<br>
+<br>
+
+## v2.0.0 (*29-Jul-2024*)
 
 - **❌ BREAKING**: migrate to Node `v20` and ESM-only
-
-<br>
-
 - **✅ fix**: minor improvements
